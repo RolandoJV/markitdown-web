@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>markitdown-web</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <header class="app-header">
+    <div class="brand">
+      <h1>markitdown-web</h1>
+      <p class="tagline" data-i18n="tagline"></p>
+    </div>
+    <div class="header-actions">
+      <button id="lang-toggle" type="button" class="btn btn-ghost" aria-label="Language">EN</button>
+    </div>
+  </header>
+
+  <main class="app-main">
+    <section id="dropzone" class="dropzone" tabindex="0" role="button">
+      <input id="file-input" type="file" multiple hidden>
+      <p class="dropzone-title" data-i18n="dropTitle"></p>
+      <p class="dropzone-hint" data-i18n="dropHint"></p>
+      <p class="dropzone-limits" id="limits-hint"></p>
+    </section>
+
+    <section class="toolbar">
+      <button id="convert-btn" type="button" class="btn btn-primary" data-i18n="convert"></button>
+      <button id="zip-btn" type="button" class="btn" disabled data-i18n="downloadZip"></button>
+      <button id="clear-btn" type="button" class="btn btn-ghost" disabled data-i18n="clear"></button>
+      <span id="status" class="status" role="status" aria-live="polite"></span>
+    </section>
+
+    <section class="layout">
+      <div class="panel list-panel">
+        <ul id="file-list" class="file-list"></ul>
+        <p id="empty-note" class="empty-note" data-i18n="empty"></p>
+      </div>
+
+      <div class="panel preview-panel">
+        <div class="preview-header">
+          <span class="preview-title" data-i18n="previewTitle"></span>
+          <div class="preview-actions">
+            <button id="copy-btn" type="button" class="btn btn-sm" disabled data-i18n="copy"></button>
+            <button id="download-btn" type="button" class="btn btn-sm" disabled data-i18n="download"></button>
+          </div>
+        </div>
+        <pre id="preview-body" class="preview-body"><span class="placeholder" data-i18n="previewPlaceholder"></span></pre>
+      </div>
+    </section>
+  </main>
+
+  <footer class="app-footer">
+    <p id="credits" data-i18n-html="credits"></p>
+  </footer>
+
+  <script src="/static/i18n.js"></script>
+  <script src="/static/app.js"></script>
+</body>
+</html>
