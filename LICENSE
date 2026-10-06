@@ -19,14 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-
-NOTE ON THIRD-PARTY ATTRIBUTION
-
-This project is an unofficial companion interface for MarkItDown
-(https://github.com/microsoft/markitdown), Copyright (c) Adam Fourney and
-Microsoft Corporation, also released under the MIT License. All credit for the
-MarkItDown library and its conversion capabilities belongs to its original
-authors. This package depends on MarkItDown from PyPI and does not modify or
-redistribute its source code.

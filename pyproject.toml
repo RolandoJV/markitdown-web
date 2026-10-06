@@ -38,7 +38,7 @@ path = "src/markitdown_web/__about__.py"
 packages = ["src/markitdown_web"]
 
 [tool.hatch.build.targets.sdist]
-only-include = ["src/markitdown_web", "README.md"]
+only-include = ["src/markitdown_web", "README.md", "LICENSE", "THIRD_PARTY.md"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

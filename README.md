@@ -20,6 +20,8 @@ individually or as a single ZIP archive.
 > Corporation** (licencia MIT): **todo el mérito es suyo**. Este repositorio solo aporta
 > la interfaz web para usarlo desde el navegador en lugar de la consola. No modifica la
 > librería original ni redistribuye su código fuente.
+>
+> Full notice: [THIRD_PARTY.md](THIRD_PARTY.md) · Aviso completo: [THIRD_PARTY.md](THIRD_PARTY.md)
 
 ## Features
 
